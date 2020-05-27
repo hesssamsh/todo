@@ -10,10 +10,10 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.todoapp.interfaces.OnTaskItemClickListener
 import com.example.todoapp.R
 import com.example.todoapp.data.Task
 import com.example.todoapp.databinding.FragmentTrashBinding
+import com.example.todoapp.interfaces.OnTaskItemClickListener
 import com.example.todoapp.ui.tasks.TasksAdapter
 import com.example.todoapp.ui.tasks.TasksTracker
 import com.example.todoapp.util.setGone
@@ -112,6 +112,7 @@ class TrashFragment : Fragment(), OnTaskItemClickListener {
                 R.id.undoRemove -> viewModel.undoRemoveSelectedTasks()
                 R.id.delete -> viewModel.deleteSelectedTasks()
             }
+            mode?.finish()
             return true
         }
 

@@ -202,6 +202,7 @@ class TasksFragment : Fragment(), OnTaskItemClickListener, OnTaskItemSwipeListen
                 R.id.share_task -> viewModel.selectedTasks.value?.get(0)?.share(requireActivity())
                 R.id.set_done_task -> viewModel.setDoneSelectedTasks(true)
             }
+            mode?.finish()
             return true
         }
 
