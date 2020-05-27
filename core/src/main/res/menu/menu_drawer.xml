@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/allTasks"
+            android:icon="@drawable/ic_all_tasks"
+            android:title="@string/all_tasks" />
+
+        <item
+            android:id="@+id/doneTasks"
+            android:icon="@drawable/ic_done_tasks"
+            android:title="@string/done_tasks" />
+
+        <item
+            android:id="@+id/trash"
+            android:icon="@drawable/ic_trash"
+            android:title="@string/trash" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>

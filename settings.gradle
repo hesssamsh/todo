@@ -1,0 +1,2 @@
+rootProject.name='ToDoApp'
+include ':core'

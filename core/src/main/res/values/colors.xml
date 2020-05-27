@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ffffff</color>
+    <color name="primaryDarkColor">#eeeeee</color>
+    <color name="secondaryColor">#d500f9</color>
+    <color name="secondaryLightColor">#ff5bff</color>
+    <color name="secondaryDarkColor">#9e00c5</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="statusBarColor">#cccccc</color>
+    <color name="trashColor">#d32f2f</color>
+</resources>

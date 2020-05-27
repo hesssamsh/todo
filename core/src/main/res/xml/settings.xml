@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:icon="@drawable/ic_night"
+        android:defaultValue="false"
+        android:key="@string/night_mode_prefs_key"
+        android:title="@string/night_mode" />
+
+    <Preference
+        android:icon="@drawable/ic_info"
+        android:key="@string/version_name_prefs_key"
+        android:title="@string/version" />
+</PreferenceScreen>

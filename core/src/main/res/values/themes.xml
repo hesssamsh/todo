@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        //Theme Colors
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        // ActionMode
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/primaryColor</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_close</item>
+
+        <item name="searchViewStyle">@style/Widget.SearchView</item>
+        <item name="hintTextColor">@color/dividerColor</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="fontFamily">@font/font</item>
+    </style>
+
+    // navigationView Checked Item's Background Color
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <item name="colorPrimary">@color/secondaryColor</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/remove_selected_tasks"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete_selected_tasks"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/set_done_task"
+        android:icon="@drawable/ic_done_tasks"
+        android:title="@string/set_complete"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/duplicate_task"
+        android:icon="@drawable/ic_content_copy"
+        android:title="@string/copy_task"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share_task"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_task"
+        app:showAsAction="never" />
+
+</menu>
